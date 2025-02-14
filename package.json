@@ -1,0 +1,34 @@
+{
+  "name": "practice-class",
+  "version": "1.0.0",
+  "description": "-this is a review",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack server --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilpa2508/practice-class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilpa2508/practice-class/issues"
+  },
+  "homepage": "https://github.com/shilpa2508/practice-class#readme",
+  "dependencies": {
+    "babel-loader": "^9.2.1",
+    "bootstrap": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2"
+  },
+  "devDependencies": {
+    "sass": "^1.84.0",
+    "sass-loader": "^16.0.4",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
